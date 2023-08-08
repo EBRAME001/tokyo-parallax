@@ -1,0 +1,85 @@
+Format Document
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tamanho-padrao{
+    height: 100%;
+    width: 100%;
+}
+
+.imagem-de-fundo{
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+#inicial{
+    background-image: url(../japao/telainicial.jpg);
+    background-attachment: fixed;
+    
+}
+
+h1{
+    border: 1px solid black;
+    box-shadow: 10px 5px 0 pink;
+    width: 300px;
+    margin: 30px auto 50px auto;
+    text-shadow: 0px 10px 0px rgb(00,00,00,0.1);
+    text-align: center;
+    font-size: 60px;
+    font-family: "garamond", 'Times New Roman', Times, serif;
+    padding: 10px 0 20px 0;
+}
+
+p{
+    border: 1px solid black;
+    box-shadow: 10px 10px 3px black;
+    width: 80%;
+    border-radius: 5px;
+    margin: 30px auto 40px auto;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "bembo",Arial, Helvetica, sans-serif;
+
+} 
+
+#ptokyo{
+    margin-bottom: 200px;
+}
+
+#segunda-imagem{
+    background-image: url(../japao/cidade.jpg);
+    background-attachment: fixed;
+}
+
+#terceira-foto{
+    background-image: url(../japao/casa-no-lago.jpg);
+    background-attachment: fixed;
+    margin-top: 20px;
+}
+
+#tokyo{
+    box-shadow: 10px 5px 0 rgb(232, 238, 149); 
+}
+
+#templo{
+    box-shadow: 10px 5px 0 rgb(45, 140, 184);
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    background-color: goldenrod;
+    text-align: center;
+    border: 1px dotted black;
+}
+
+
